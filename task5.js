@@ -1,7 +1,7 @@
 function waitingTime(waitingTimes, serialNumber) {
   if (
     serialNumber > waitingTimes.length &&
-    Array.isArray(waitingTime) &&
+    Array.isArray(waitingTimes) &&
     typeof serialNumber === 'number'
   ) {
     let sum = 0;
